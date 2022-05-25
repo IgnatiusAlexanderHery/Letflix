@@ -1,0 +1,419 @@
+body
+{
+    margin: 0px;
+    background-image: url(../asset/Background\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-size: cover;
+    height: 100%; 
+}
+.header
+{
+    background: rgba(255,255,255, .5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0%;
+}
+
+.leftHead
+{
+    width: 30%;
+}
+
+.rigthHead
+{
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 40px;
+}
+
+.Logo
+{
+    justify-content: center;
+    padding: 6px;
+}
+
+#searchBox
+{
+    padding-top: 7%;
+    margin-top: 8 px;
+    resize: none;
+}
+
+textarea {
+    width: 90px;
+    height: 15px;
+  }
+
+#SearchLogo
+{
+    padding-left: 3%;
+
+}
+
+.navigation
+{
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.navbar .navbar-nav .nav-link{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar .navbar-nav{
+    display: none;
+    flex-direction: column;
+    background-color: black;
+}
+
+.navbar .navbar-nav .nav-link,
+.dropdown .dropdown-menu .dropdown-item{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: rgb(73, 73, 73);
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown .dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: black;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    position: relative;
+}
+
+.navbar .navbar-toggle{
+    display: block;
+        padding: 10px;
+        background-color:black;
+}
+
+@media only screen and (min-width: 900px){  
+    .navbar .navbar-toggle{
+        display: none;
+    }
+
+    .navbar .navbar-nav{
+        flex-direction: row;
+        display: flex !important;
+    }
+
+    .dropdown .dropdown-menu{
+        position: relative;
+    }
+    
+    .leftHead
+{
+    width: 30%;
+}
+
+.rigthHead
+{
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 40px;
+}
+
+.Logo
+{
+    justify-content: center;
+    padding: 6px;
+}
+
+#searchBox
+{
+    padding-top: 2%;
+    margin-top: 8 px;
+    resize: none;
+}
+
+#SearchLogo
+{
+    padding-left: 3%;
+
+}
+
+body
+    {
+        background-repeat: no-repeat;
+        background-position-y: -550px;
+        background-size: cover;
+    }
+
+.footer
+{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0%;
+    width: 100%;
+    bottom: 0;
+    overflow-y: hidden;
+}
+
+.dramas
+{
+    display: flex;
+    width: 100%;
+    height: 217px;
+}
+
+.gdrama
+{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 5%;
+    text-align: center;
+}
+
+textarea {
+    width: 150px;
+    height: 15px;
+  }
+
+  
+  .about
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    background-color: rgba(0,0,0, .5);
+    width: 100%;
+    height: 517px;
+    color: white;
+    font-size: 150%;
+}
+}
+
+.container {
+    height: 517px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0, .5);
+    overflow-x: hidden;
+}
+
+.frame {
+    height: 400px;
+    width: 300px;
+}
+
+.slider-container {
+    width: 1100%;
+    display: flex;
+    position: relative;
+}
+
+.slider {
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 250px 350px;
+    margin-right: 50px;
+}
+
+#img1{
+    background-image: url(../asset/Kimetsu.jpg);
+}
+#img2{
+    background-image: url(../asset/Resident\ Evil.jpg);
+}
+#img3{
+    background-image: url(../asset/BlackWidow.jpg);
+}
+#img4{
+    background-image: url(../asset/The_Conjuring_-_The_Devil_Made_Me_Do_It.png);
+}
+#img5{
+    background-image: url(../asset/SpiderMan.jpg);
+}
+
+.footer
+{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0%;
+    height: 108px;
+    bottom: 0;
+    overflow-y: hidden;
+    width: 100%;
+    bottom: 0;
+}
+
+.leftFoot
+{
+    width: 30%;
+    display: flex;
+    margin: 5%;
+}
+
+#facebook
+{
+    margin-right: 20%;
+}
+#ig
+{
+    margin-right: 10%;
+}
+#twitter
+{
+    margin-right: 5%;
+}
+
+.rightFoot
+{
+    width: 30%;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4%;
+}
+
+.dramas
+{
+    display: flex;
+    width: 100%;
+    height: 517px;
+}
+
+.gdrama
+{
+    width: 100%;
+    height: 339px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 5%;
+    text-align: center;
+}
+
+#dimg1
+{
+background-image: url(../asset/Buku\ harian\ seorang\ Istri.jpg);
+}
+
+#dimg2
+{
+background-image: url(../asset/Dari\ Jendela\ SMP.jpg);
+}
+
+#dimg3
+{
+background-image: url(../asset/Love\ Story\ The\ Series.jpg);
+}
+
+#dimg4
+{
+background-image: url(../asset/Samudra\ Cinta.jpg);
+}
+
+.plans
+{
+    display: flex;
+    width: 100%;
+    height: 517px;
+    color: white;
+}
+
+.subsplan
+{
+    width: 25%;
+    height: 80%;
+    background-color: black;
+    margin: 5%;
+    border: 1px solid lightblue;
+}
+
+#Silver
+{
+    font-size:  50px;
+    text-align: center;
+    padding-bottom: 10%;
+    color: silver;
+}
+
+#Gold
+{
+    font-size:  50px;
+    text-align: center;
+    padding-bottom: 10%;
+    color: gold;
+}
+
+#Diamond
+{
+    font-size:  50px;
+    text-align: center;
+    padding-bottom: 10%;
+    color: rgb(214, 0, 214);
+}
+
+.price
+{
+    position: relative;
+    margin-top: 50%;
+    text-align: center;
+    border: 1px solid lightblue;
+}
+
+.regisbox
+{
+    display: flex;
+    width: 100%;
+    height: 517px;
+    color: white;
+    justify-content: center;
+    background-color: rgba(0,0,0, .5);
+}
+
+.boxmenu
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(57, 126, 255);
+    margin-top: 5%;
+    margin-bottom: 15%;
+    border: 2px solid white;
+}
+.about
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    background-color: rgba(0,0,0, .5);
+    width: 100%;
+    height: 517px;
+    color: white;
+    font-size: 100%;
+}
+
+#textabout
+{
+    padding: 5%;
+}
